@@ -1,0 +1,235 @@
+{% load static %}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/header-bg2.jpg') no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.a-eliminar {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.a-eliminar:hover {
+    background-color: red;
+}
+
+.a-navbar {
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container-add {
+    text-align: center;
+    padding: 0 10%;
+    margin: 40px auto 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: red;
+    opacity: 0.92;
+}
+
+.container-container-message {
+    position: relative;
+}
+
+.container-message {
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.encabezado-pedidos {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.encabezado-pedidos::selection {
+    color: #fff;
+    background-color: red;
+}
+
+.input-login {
+    caret-color: red;
+}
+
+.li-navbar {
+    float: left;
+}
+
+.li-navbar-logo {
+    float: left;
+}
+
+.li-navbar-salir:hover {
+    background-color: red;
+    transition: 2s;
+}
+
+.li-navbar:hover {
+    background-color: red;
+    transition: 1s;
+}
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    transition: 1s;
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+.login-box a {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.login-box p {
+    margin: 10;
+    padding: 0 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.login-box a:hover {
+    color: #fff;
+}
+
+.logo-navbar {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    height: 46px;
+    width: 140px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-container {
+    padding: 0 10%;
+    margin: 40px auto 0;
+    background-color: white;
+    width: 1000px;
+    opacity: 0.92;
+}
+
+.table thead {
+    background-color: white;
+}
+
+.table thead tr th {
+    background-color: red;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: white;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.table thead tr td {
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: black;
+    opacity: 1;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.ul-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+}
